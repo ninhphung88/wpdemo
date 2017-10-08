@@ -37,7 +37,7 @@ const commonConfig = merge([
             filename: '[name].js', // cho nhiều điểm entry
             //filename: "[chunkhash].js", // for long term caching the filename template for entry chunks
             
-            //publicPath: "/assets/", // string
+            publicPath: "/wpdemo/", // string
             //publicPath: "",
             //publicPath: "https://cdn.example.com/", // url tới thư mục đầu ra được giải quyết tương đối tới trang HTML
             

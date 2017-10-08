@@ -1,2 +1,2 @@
 webpackJsonp([4],{"1Q41":function(){},YL6N:function(a,b,c){"use strict";Object.defineProperty(b,"__esModule",{value:!0}),b.default=function(){var d=0<arguments.length&&void 0!==arguments[0]?arguments[0]:"Hello world",e=document.createElement("div");return e.className="fa fa-hand-spock-o fa-1g",e.innerHTML=d,e.onclick=function(){c.e(0).then(c.bind(null,"co9Y")).then(function(f){e.textContent=f.default}).catch(function(f){console.error(f)})},e}},iB1W:function(a,b,c){"use strict";c("1Q41");var e=c("YL6N"),f=function(h){return h&&h.__esModule?h:{default:h}}(e),g=(0,f.default)("Another");document.body.appendChild(g)}},["iB1W"]);
-//# sourceMappingURL=another.3f444cbc.js.map
+//# sourceMappingURL=another.ee0caca1.js.map
