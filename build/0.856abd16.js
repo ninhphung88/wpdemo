@@ -1,0 +1,2 @@
+webpackJsonp([0],{KMic:function(a,b,c){var d=c("xEUX");"string"==typeof d&&(d=[[a.i,d,""]]);var e,f={};f.transform=e;c("fjbf")(d,f);d.locals&&(a.exports=d.locals),!1},co9Y:function(a,b,c){"use strict";Object.defineProperty(b,"__esModule",{value:!0}),c("KMic"),b.default="Hello from lazy"},xEUX:function(a,b,c){b=a.exports=c("FZ+f")(void 0),b.push([a.i,"body {\r\n  color: blue;\r\n}",""])}});
+//# sourceMappingURL=0.856abd16.js.map

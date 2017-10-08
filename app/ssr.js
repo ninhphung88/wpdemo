@@ -1,0 +1,13 @@
+// @flow
+/* eslint-disable import/first, no-unused-vars, jsx-a11y/no-static-element-interactions, react/jsx-filename-extension  */
+const React = require('react');
+const ReactDOM = require('react-dom');
+
+const SSR = <div onClick={() => alert('hello')}>Hello world</div>;
+
+// Render only in the browser, export otherwise
+if (typeof document === 'undefined') {
+    module.exports = SSR;
+} else {
+    ReactDOM.render(SSR, document.getElementById('app'));
+}
