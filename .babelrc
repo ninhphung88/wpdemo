@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    "syntax-dynamic-import"
+  ],
+  "presets": [
+    [
+      "env",
+	{
+	  //"modules": false,
+        //"targets": {
+        //  "browsers": ["IE 8"]
+        //},
+	},
+    ],
+    "flow",
+    //"react",
+  ],
+  "env": {
+    "karma": {
+      "plugins": [
+        [
+          "istanbul",
+          { "exclude": ["tests/*.test.js"] }
+        ]
+      ]
+    }
+  },
+}
