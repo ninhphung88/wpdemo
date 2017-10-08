@@ -37,7 +37,7 @@
     "lint": "eslint src --ext .js,.jsx",
     "test": "yarn lint && jest --coverage",
     "precommit": "yarn test",
-    "prepush": "yarn test && yarn prod:build"
+    "prepush": "yarn test"
   },
   "devDependencies": {
     "autoprefixer": "^7.0.1",
